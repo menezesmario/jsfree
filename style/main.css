@@ -13,9 +13,31 @@
 
 body {
  background: var(--preto);
+ font-family: sans-serif;
+ color: white;
 
 }
 
 header .container {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
 
+header .logo {
+    color: var(--amarelo);
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--amarelo);
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
 }
