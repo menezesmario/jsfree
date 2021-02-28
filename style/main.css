@@ -1,0 +1,21 @@
+:root{
+    --amarelo: #c5e221;
+    --preto: #1d1d1d;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+ background: var(--preto);
+
+}
+
+header .container {
+
+}
