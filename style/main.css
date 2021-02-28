@@ -56,7 +56,7 @@ header nav a:hover {
     justify-content: center;
     align-items: flex-start;
 
-    padding: 100px;
+    padding: 10%;
 }
 
 .aula-principal .descricao{
@@ -65,4 +65,25 @@ header nav a:hover {
 
 .titulo {
     font-size: 40px;
+}
+
+.botao {
+    background-color: var(--amarelo);
+    border: none;
+    color: var(--preto);
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.botao:hover {
+    background-color: white;
+    color: var(--preto);
+    transition: .4s;
+}
+
+.botao i {
+    margin-right: 10px;
 }
