@@ -19,12 +19,11 @@ body {
 }
 
 header .container {
-    text-decoration: none;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    height: 80px;
+    justify-content: space-between;
+
 }
 
 header .logo {
@@ -92,4 +91,9 @@ header nav a:hover {
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carousel-tutorials {
+    margin-top: 5px;
+
 }
