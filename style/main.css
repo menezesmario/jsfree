@@ -1,6 +1,6 @@
 :root{
     --amarelo: #c5e221;
-    --preto: #1d1d1d;
+    --preto: #292828;
 }
 
 
@@ -23,6 +23,7 @@ header .container {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin: 20px;
 
 }
 
@@ -30,12 +31,13 @@ header .logo {
     color: var(--amarelo);
     font-family: sans-serif;
     font-size: 40px;
+    margin-left: 50px;
 }
 
 header nav a{
     text-decoration: none;
     color: var(--amarelo);
-    margin-right: 10px;
+    margin-right: 50px;
 }
 
 header nav a:hover {
@@ -45,21 +47,49 @@ header nav a:hover {
 /* aula principal */
 .aula-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.90),rgba(0,0,0,.70)100%), url('../img/backgroundjs.jpg');
+    background: linear-gradient(rgba(206, 206, 206, 0.5),rgba(0,0,0,.20)100%);
     
-    height: 600px;
-    background-size: cover;
-
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-
     padding: 10%;
+
 }
+
+.aula-principal .container {
+    width: 40vw;
+    align-items: center;
+    margin-top: 250px;
+
+}
+
+.titulo {
+    margin-bottom: 30px;
+}
+
+.descricao {
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.main-container {
+    flex-direction: row;
+}
+
+.img-main img {
+    width: 60%;
+    float: right;
+    margin-top: -500px;
+
+}
+
+
 
 .aula-principal .descricao{
     margin-bottom: 40px;
+    width: 70%;
 }
 
 .titulo {
